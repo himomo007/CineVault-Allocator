@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1pxfsz24cyrvohytewt5cj5slpias7jxvgo42gsq",
+  "Issue Number": "2",
+  "Client": {
+    "Name": "sxxscm",
+    "Region": "China",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "http://www.sxxscm.com/h-index.html",
+    "Social Media": "http://www.sxxscm.com/h-index.html",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Shaanxi Xishi Culture & Media Co., Ltd., established in 2017, is a comprehensive multimedia company integrating film and television production, large-scale event organization, advertising design, and media agency services. Over the years, the company has consistently upheld the corporate values of \"Integrity, Efficiency, Dedication, and Mutual Success,\" providing diversified, convenient, and customer-oriented high-quality services tailored to the unique needs of each client.\n\nThe company possesses extensive media resources reaching across national central and local outlets, and maintains a deep collaboration with the \"Live Broadcast at Noon\" program of Xi'an Radio and Television Station's News Channel. It has launched its own branded programs including \"Urban Living Room,\" \"Emergency Legal Insights,\" \"One Interview,\" \"One Flavor Delicacies,\" and \"Xiao Ma on Construction Sites.\" With professional production capabilities, its services span large-scale documentary production, new media content creation, and other areas of audiovisual communication. The company has successfully served prestigious clients such as the Publicity Department of the CPC Central Committee's \"Documentary China\" Communication Project, China State Construction, China Resources Land, Xi'an Urban Investment Group, Yangling Urban Investment Group, Shaanxi Construction Group, Xi'an High-Tech Industrial Development Zone, Dusit University in Thailand, and Xu Xiaoping Law Firm, earning high praise from all. Xishi Media maintains strong, long-term partnerships with mainstream media outlets at national, provincial, and municipal levels, as well as online platforms, committed to helping more partners achieve success together.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Film and television production, interview data, etc.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "http://www.sxxscm.com/h-col-106.html\nhttp://www.sxxscm.com/h-col-105.html",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Sporadic",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe, Australia (continent)",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f01021773\nf01081419\nf01083931\nf01084149\nf01084949\nf01708981\nf02825281\nf02826762\nf02827010\nf02827135\nf03602120\nf03611998\nf03623218",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "12PiB",
+    "Single Size Dataset": "1.5PiB",
+    "Replicas": 8,
+    "Weekly Allocation": "1000TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-08-07 08:43:35.557476970 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1pxfsz24cyrvohytewt5cj5slpias7jxvgo42gsq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
