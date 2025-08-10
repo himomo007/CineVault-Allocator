@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1tkqbvi6prs6hxolcrqbyr2yytl6vrejy3feeomi",
+  "Issue Number": "4",
+  "Client": {
+    "Name": "Growing Brothers",
+    "Region": "China",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "https://www.gyxd.cn/",
+    "Social Media": "https://www.gyxd.cn/",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Chengdu Growing Brothers Film & Culture Communication Co., Ltd.,简称 Growing Brothers, was founded in 2011 and specializes in various visual communication fields related to the creative industry, including government and corporate promotional videos, film advertising, micro-movie production, roadshow videos, and more, offering clients a comprehensive, one-stop solution for the entire film and video production process. With 14 years of experience in video production, involvement in over 50 industries, trusted by more than 500 clients, and delivering over 1,000 mature case studies.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "video data in various fields related to visual communication, such as roadshow videos",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "The Filecoin data preparation process begins when a user initiates a storage deal through client tools such as Lotus or Fuhon, packaging the raw data into a CAR file for transmission.  \nThe data is then sent to a miner, who verifies its integrity (via root CID comparison) and assigns it to an appropriate sector for preprocessing.  \nNext comes the \"Sealing\" process, which consists of multiple stages: PreCommit1 encodes the data and generates the CommD, while PreCommit2 performs cryptographic computations to produce CommR and CommC.  \nIn the Seal Commit phase, the miner uses GPU or specialized hardware to generate zero-knowledge proofs, completing the verifiable encapsulation of the data replica.  \nAfter sealing, the miner submits the PreCommit and Commit proofs to the Filecoin blockchain using node software like Lotus, awaiting on-chain verification.  \nOnce verified, the sector is activated and begins periodically submitting Proof-of-Spacetime (PoSt) to continuously prove the data is being stored.  \nThe entire process relies on Filecoin's Proof-of-Replication (PoRep) and Proof-of-Spacetime (PoSt) mechanisms to ensure data is stored reliably and verifiably across the network.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.gyxd.cn/index.php?m=content&c=index&a=lists&catid=53&aid=1&orders=inputtime&type=1\n\nhttps://www.gyxd.cn/index.php?m=content&c=index&a=lists&catid=26&orders=inputtime&type=2",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Sporadic",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe, Australia (continent)",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03340635 \nf03601993 \nf03620447 \nf03601967 \nf03620433 \nf03620442 \nf03620441 \nf03620434 \nf03620446",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "8PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 8,
+    "Weekly Allocation": "1000TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-08-10 14:28:25.028493165 UTC",
+    "Validated By": "himomo007",
+    "Active": true,
+    "Updated At": "2025-08-10 14:28:25.028488865 UTC",
+    "Active Request ID": "f1dd61d5-93f9-4a1a-8c33-b2ae8ec6725a",
+    "On Chain Address": "f1tkqbvi6prs6hxolcrqbyr2yytl6vrejy3feeomi",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "f1dd61d5-93f9-4a1a-8c33-b2ae8ec6725a",
+      "Request Type": "First",
+      "Created At": "2025-08-10 14:26:33.469299265 UTC",
+      "Updated At": "2025-08-10 14:26:33.469300520 UTC",
+      "Active": false,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": [
+        {
+          "Github Username": "himomo007",
+          "Signing Address": "f1kpbkfdnqdbuqt3htwxjxyrxmcd4cnwcp2aatnba",
+          "Created At": "2025-08-10 14:28:21.705000000 UTC",
+          "Message CID": "bafy2bzaceaj353jo3d66mfs6qhwq2ebqr6ok4itb3onugax5poo4kwm7nazhu"
+        }
+      ]
+    }
+  ]
+}
